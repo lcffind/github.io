@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -s src/stories/assets -p 6006",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -s src/stories/assets ",
     "chromatic": "chromatic"
   },
   "dependencies": {
