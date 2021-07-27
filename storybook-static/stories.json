@@ -1,0 +1,159 @@
+{
+  "v": 2,
+  "globalParameters": {},
+  "kindParameters": {
+    "Example/Introduction": {
+      "fileName": 896,
+      "framework": "vue"
+    },
+    "example/Avatar": {
+      "fileName": 910,
+      "framework": "vue"
+    },
+    "Example/Button": {
+      "fileName": 900,
+      "framework": "vue"
+    },
+    "Example/Header": {
+      "fileName": 241,
+      "framework": "vue"
+    },
+    "Example/Page": {
+      "fileName": 911,
+      "framework": "vue"
+    }
+  },
+  "stories": {
+    "example-introduction--page": {
+      "id": "example-introduction--page",
+      "name": "Page",
+      "kind": "Example/Introduction",
+      "story": "Page",
+      "parameters": {
+        "docsOnly": true,
+        "__id": "example-introduction--page",
+        "__isArgsStory": false
+      }
+    },
+    "example-avatar--circle": {
+      "id": "example-avatar--circle",
+      "name": "Circle",
+      "kind": "example/Avatar",
+      "story": "Circle",
+      "parameters": {
+        "__id": "example-avatar--circle",
+        "__isArgsStory": true
+      }
+    },
+    "example-avatar--square": {
+      "id": "example-avatar--square",
+      "name": "Square",
+      "kind": "example/Avatar",
+      "story": "Square",
+      "parameters": {
+        "__id": "example-avatar--square",
+        "__isArgsStory": true
+      }
+    },
+    "example-avatar--large": {
+      "id": "example-avatar--large",
+      "name": "Large",
+      "kind": "example/Avatar",
+      "story": "Large",
+      "parameters": {
+        "__id": "example-avatar--large",
+        "__isArgsStory": true
+      }
+    },
+    "example-avatar--small": {
+      "id": "example-avatar--small",
+      "name": "Small",
+      "kind": "example/Avatar",
+      "story": "Small",
+      "parameters": {
+        "__id": "example-avatar--small",
+        "__isArgsStory": true
+      }
+    },
+    "example-button--primary": {
+      "id": "example-button--primary",
+      "name": "Primary",
+      "kind": "Example/Button",
+      "story": "Primary",
+      "parameters": {
+        "__id": "example-button--primary",
+        "__isArgsStory": true
+      }
+    },
+    "example-button--secondary": {
+      "id": "example-button--secondary",
+      "name": "Secondary",
+      "kind": "Example/Button",
+      "story": "Secondary",
+      "parameters": {
+        "__id": "example-button--secondary",
+        "__isArgsStory": true
+      }
+    },
+    "example-button--large": {
+      "id": "example-button--large",
+      "name": "Large",
+      "kind": "Example/Button",
+      "story": "Large",
+      "parameters": {
+        "__id": "example-button--large",
+        "__isArgsStory": true
+      }
+    },
+    "example-button--small": {
+      "id": "example-button--small",
+      "name": "Small",
+      "kind": "Example/Button",
+      "story": "Small",
+      "parameters": {
+        "__id": "example-button--small",
+        "__isArgsStory": true
+      }
+    },
+    "example-header--logged-in": {
+      "id": "example-header--logged-in",
+      "name": "Logged In",
+      "kind": "Example/Header",
+      "story": "Logged In",
+      "parameters": {
+        "__id": "example-header--logged-in",
+        "__isArgsStory": true
+      }
+    },
+    "example-header--logged-out": {
+      "id": "example-header--logged-out",
+      "name": "Logged Out",
+      "kind": "Example/Header",
+      "story": "Logged Out",
+      "parameters": {
+        "__id": "example-header--logged-out",
+        "__isArgsStory": true
+      }
+    },
+    "example-page--logged-in": {
+      "id": "example-page--logged-in",
+      "name": "Logged In",
+      "kind": "Example/Page",
+      "story": "Logged In",
+      "parameters": {
+        "__id": "example-page--logged-in",
+        "__isArgsStory": true
+      }
+    },
+    "example-page--logged-out": {
+      "id": "example-page--logged-out",
+      "name": "Logged Out",
+      "kind": "Example/Page",
+      "story": "Logged Out",
+      "parameters": {
+        "__id": "example-page--logged-out",
+        "__isArgsStory": true
+      }
+    }
+  }
+}
