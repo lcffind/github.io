@@ -31,14 +31,17 @@ export default {
   &--primary {
     border: 1px solid rgb(3, 91, 255);
     color: rgb(3, 91, 255);
+    background: rgba(3, 91, 255, 0.5);
   }
   &--warning {
     border: 1px solid rgb(255, 167, 3);
     color: rgb(255, 167, 3);
+    background: rgba(255, 167, 3, 0.5);
   }
   &--danger {
     border: 1px solid rgb(245, 31, 16);
     color: rgb(245, 31, 16);
+    background: rgba(245, 31, 16, 0.5);
   }
 }
 </style>
