@@ -8,7 +8,8 @@
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -s src/stories/assets -p 6006",
     "build-storybook": "build-storybook -s src/stories/assets ",
-    "chromatic": "chromatic"
+    "chromatic": "chromatic",
+    "build:npm": "cross-env BABEL_ENV=production babel src -d dist"
   },
   "dependencies": {
     "core-js": "^3.6.5",
